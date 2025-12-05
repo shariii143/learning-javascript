@@ -27,8 +27,14 @@ for (let key in person) {
 let colors = ["Red", "Green", "Blue"];
 for(let color of colors){
     console.log(color);
-    
 
+}
+
+// Nested loops
+for (let i = 1; i <= 3; i++) {
+    for (let j = 1; j <= 2; j++) {
+        console.log(`i: ${i}, j: ${j}`);
+    }
 }
 
 
